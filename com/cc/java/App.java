@@ -15,6 +15,9 @@ public class App {
          //-- Das geht jetzt nicht mehr!--//
         // HoneyBee bee = new HoneyBee(); // abstrakte Superklasse!
         // pollObj(bee);
+
+        Bird bird = new Bird();
+        pollObj(bird);
      
     }
 
@@ -26,6 +29,8 @@ public class App {
         output(obj.fly());
         output("-------------------");
     }
+
+
 
    
     private static void output(String outputStr) {
