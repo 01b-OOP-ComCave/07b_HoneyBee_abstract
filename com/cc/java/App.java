@@ -12,9 +12,9 @@ public class App {
         pollObj(worker);
         pollObj(drone);
 
-         //-- Das sollte eigentlich nicht gehen!--//
-        HoneyBee bee = new HoneyBee(); // SuperKlasse!
-        pollObj(bee);
+         //-- Das geht jetzt nicht mehr!--//
+        // HoneyBee bee = new HoneyBee(); // abstrakte Superklasse!
+        // pollObj(bee);
      
     }
 
